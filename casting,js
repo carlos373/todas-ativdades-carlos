@@ -1,0 +1,19 @@
+//Casting -> processo de converter os tipos de dados de uma  variavel.
+/** dois tipos 
+ * parseInt()-> converter para um inteiro
+ * parseFloat()-> converter para um Flutuante
+ */
+// Para resolver um algoritimo eu tenho que seguir 3 passos
+
+//1º Determinar os dados de entrada(variaveis e comandos para receber valores)
+let nota1, nota2, soma
+//Comandos para a entrada de dados
+nota1 = parseInt(prompt("Digite sua nota"))
+nota2 = parseInt(prompt("Digite sua nota"))
+
+//2º Etapa de processamento  -> trabalhar com as variaveis
+soma = nota1 + nota2
+
+//3º Saída do processamento. Saída de dados
+//Comandos a saída de dados
+document.write(soma)
